@@ -1,0 +1,220 @@
+2023-02-17 19:04:35 [INFO] Starting minecraft server version 1.5.2
+2023-02-17 19:04:35 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2023-02-17 19:04:35 [INFO] Loading properties
+2023-02-17 19:04:35 [INFO] Default game type: SURVIVAL
+2023-02-17 19:04:35 [INFO] Generating keypair
+2023-02-17 19:04:36 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2023-02-17 19:04:37 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2023-02-17 19:04:37 [INFO] [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+2023-02-17 19:04:37 [INFO] [AutoSaver] Loading AutoSaver v2.5
+2023-02-17 19:04:37 [INFO] [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+2023-02-17 19:04:37 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2023-02-17 19:04:37 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2023-02-17 19:04:37 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2023-02-17 19:04:37 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2023-02-17 19:04:38 [INFO] Preparing level "world"
+2023-02-17 19:04:38 [SEVERE] Exception in thread "Thread-6" 
+2023-02-17 19:04:38 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2023-02-17 19:04:38 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2023-02-17 19:04:38 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+2023-02-17 19:04:38 [SEVERE] 	... 5 more
+2023-02-17 19:04:39 [INFO] Preparing start region for level 0 (Seed: 6290191356858073952)
+2023-02-17 19:04:40 [INFO] Preparing spawn area: 0%
+2023-02-17 19:04:41 [INFO] Preparing spawn area: 4%
+2023-02-17 19:04:42 [INFO] Preparing spawn area: 8%
+2023-02-17 19:04:43 [INFO] Preparing spawn area: 12%
+2023-02-17 19:04:44 [INFO] Preparing spawn area: 12%
+2023-02-17 19:04:45 [INFO] Preparing spawn area: 16%
+2023-02-17 19:04:46 [INFO] Preparing spawn area: 20%
+2023-02-17 19:04:47 [INFO] Preparing spawn area: 25%
+2023-02-17 19:04:48 [INFO] Preparing spawn area: 29%
+2023-02-17 19:04:49 [INFO] Preparing spawn area: 33%
+2023-02-17 19:04:50 [INFO] Preparing spawn area: 37%
+2023-02-17 19:04:51 [INFO] Preparing spawn area: 41%
+2023-02-17 19:04:52 [INFO] Preparing spawn area: 45%
+2023-02-17 19:04:53 [INFO] Preparing spawn area: 49%
+2023-02-17 19:04:55 [INFO] Preparing spawn area: 54%
+2023-02-17 19:04:56 [INFO] Preparing spawn area: 58%
+2023-02-17 19:04:57 [INFO] Preparing spawn area: 62%
+2023-02-17 19:04:58 [INFO] Preparing spawn area: 66%
+2023-02-17 19:04:59 [INFO] Preparing spawn area: 70%
+2023-02-17 19:05:00 [INFO] Preparing spawn area: 74%
+2023-02-17 19:05:01 [INFO] Preparing spawn area: 79%
+2023-02-17 19:05:02 [INFO] Preparing spawn area: 87%
+2023-02-17 19:05:03 [INFO] Preparing spawn area: 91%
+2023-02-17 19:05:04 [INFO] Preparing spawn area: 95%
+2023-02-17 19:05:05 [INFO] Preparing spawn area: 99%
+2023-02-17 19:05:06 [INFO] Preparing start region for level 1 (Seed: 6290191356858073952)
+2023-02-17 19:05:06 [INFO] Preparing spawn area: 0%
+2023-02-17 19:05:07 [INFO] Preparing spawn area: 4%
+2023-02-17 19:05:08 [INFO] Preparing spawn area: 12%
+2023-02-17 19:05:09 [INFO] Preparing spawn area: 16%
+2023-02-17 19:05:10 [INFO] Preparing spawn area: 24%
+2023-02-17 19:05:11 [INFO] Preparing spawn area: 33%
+2023-02-17 19:05:12 [INFO] Preparing spawn area: 37%
+2023-02-17 19:05:13 [INFO] Preparing spawn area: 45%
+2023-02-17 19:05:14 [INFO] Preparing spawn area: 49%
+2023-02-17 19:05:15 [INFO] Preparing spawn area: 58%
+2023-02-17 19:05:16 [INFO] Preparing spawn area: 62%
+2023-02-17 19:05:17 [INFO] Preparing spawn area: 66%
+2023-02-17 19:05:18 [INFO] Preparing spawn area: 78%
+2023-02-17 19:05:20 [INFO] Preparing spawn area: 91%
+2023-02-17 19:05:20 [INFO] Preparing start region for level 2 (Seed: 6290191356858073952)
+2023-02-17 19:05:21 [INFO] Preparing spawn area: 0%
+2023-02-17 19:05:22 [INFO] Preparing spawn area: 12%
+2023-02-17 19:05:23 [INFO] Preparing spawn area: 29%
+2023-02-17 19:05:24 [INFO] Preparing spawn area: 49%
+2023-02-17 19:05:25 [INFO] Preparing spawn area: 58%
+2023-02-17 19:05:26 [INFO] Preparing spawn area: 87%
+2023-02-17 19:05:26 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:05:26 [INFO] Check 1 passed
+2023-02-17 19:05:28 [INFO] Check 3 passed
+2023-02-17 19:05:28 [INFO] --------------------------------------------[m
+2023-02-17 19:05:28 [INFO] --------------------------------------------[m
+2023-02-17 19:05:28 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+2023-02-17 19:05:28 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+2023-02-17 19:05:28 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+2023-02-17 19:05:28 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+2023-02-17 19:05:28 [INFO] and creating an issue or pull request of the plugin you want to add[m
+2023-02-17 19:05:28 [INFO] --------------------------------------------[m
+2023-02-17 19:05:28 [INFO] --------------------------------------------[m
+2023-02-17 19:05:28 [INFO] [AutoSaver] Enabling AutoSaver v2.5
+2023-02-17 19:05:28 [INFO] [AutoSaver] [32m is enabled. [0m
+2023-02-17 19:05:28 [INFO] [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+2023-02-17 19:05:29 [INFO] [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:05:29 [INFO] Check 1 passed
+2023-02-17 19:05:29 [INFO] Check 3 passed
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+2023-02-17 19:05:29 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+2023-02-17 19:05:29 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+2023-02-17 19:05:29 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+2023-02-17 19:05:29 [INFO] and creating an issue or pull request of the plugin you want to add[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+2023-02-17 19:05:29 [INFO] You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] --------------------------------------------[m
+2023-02-17 19:05:29 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2023-02-17 19:05:29 [INFO] Done (51.500s)! For help, type "help" or "?"
+2023-02-17 19:05:29 [INFO] Crash Loop Detector is Running! (30sec)
+2023-02-17 19:05:29 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2023-02-17 19:05:30 [INFO] CONSOLE: Opped alexs_srvr_owner[m
+2023-02-17 19:05:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2023-02-17 19:05:53 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2023-02-17 19:06:11 [INFO] Stopping server
+2023-02-17 19:07:39 [INFO] Starting minecraft server version 1.5.2
+2023-02-17 19:07:39 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2023-02-17 19:07:39 [INFO] Loading properties
+2023-02-17 19:07:39 [INFO] Default game type: SURVIVAL
+2023-02-17 19:07:39 [INFO] Generating keypair
+2023-02-17 19:07:41 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2023-02-17 19:07:42 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2023-02-17 19:07:43 [INFO] [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+2023-02-17 19:07:43 [INFO] [AutoSaver] Loading AutoSaver v2.5
+2023-02-17 19:07:43 [INFO] [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+2023-02-17 19:07:44 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2023-02-17 19:07:44 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2023-02-17 19:07:44 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2023-02-17 19:07:44 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2023-02-17 19:07:44 [SEVERE] Exception in thread "Thread-6" 
+2023-02-17 19:07:44 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2023-02-17 19:07:44 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2023-02-17 19:07:44 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+2023-02-17 19:07:44 [SEVERE] 	... 5 more
+2023-02-17 19:07:44 [INFO] Preparing level "world"
+2023-02-17 19:07:44 [INFO] Preparing start region for level 0 (Seed: 6290191356858073952)
+2023-02-17 19:07:45 [INFO] Preparing spawn area: 16%
+2023-02-17 19:07:46 [INFO] Preparing spawn area: 49%
+2023-02-17 19:07:47 [INFO] Preparing spawn area: 87%
+2023-02-17 19:07:48 [INFO] Preparing start region for level 1 (Seed: 6290191356858073952)
+2023-02-17 19:07:48 [INFO] Preparing spawn area: 49%
+2023-02-17 19:07:49 [INFO] Preparing start region for level 2 (Seed: 6290191356858073952)
+2023-02-17 19:07:49 [INFO] Preparing spawn area: 0%
+2023-02-17 19:07:50 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:07:50 [INFO] Check 1 passed
+2023-02-17 19:07:52 [INFO] Check 3 passed
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+2023-02-17 19:07:52 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+2023-02-17 19:07:52 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+2023-02-17 19:07:52 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+2023-02-17 19:07:52 [INFO] and creating an issue or pull request of the plugin you want to add[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] [AutoSaver] Enabling AutoSaver v2.5
+2023-02-17 19:07:52 [INFO] [AutoSaver] [32m is enabled. [0m
+2023-02-17 19:07:52 [INFO] [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+2023-02-17 19:07:52 [INFO] [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] --------------------------------------------[m
+2023-02-17 19:07:52 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2023-02-17 19:07:52 [INFO] Check 1 passed
+2023-02-17 19:07:53 [INFO] Check 3 passed
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+2023-02-17 19:07:53 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+2023-02-17 19:07:53 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+2023-02-17 19:07:53 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+2023-02-17 19:07:53 [INFO] and creating an issue or pull request of the plugin you want to add[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+2023-02-17 19:07:53 [INFO] You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] --------------------------------------------[m
+2023-02-17 19:07:53 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2023-02-17 19:07:53 [INFO] Done (9.077s)! For help, type "help" or "?"
+2023-02-17 19:07:53 [INFO] Crash Loop Detector is Running! (30sec)
+2023-02-17 19:07:53 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2023-02-17 19:12:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:17:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:22:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:27:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:32:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:37:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:42:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:47:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:52:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 19:57:53 [INFO] [AutoSaver] [32m world and player data has been saved. [0m
+2023-02-17 20:16:22 [INFO] Starting minecraft server version 1.5.2
+2023-02-17 20:16:22 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2023-02-17 20:16:22 [INFO] Loading properties
+2023-02-17 20:16:22 [INFO] Default game type: SURVIVAL
+2023-02-17 20:16:22 [INFO] Generating keypair
+2023-02-17 20:16:24 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2023-02-17 20:16:26 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2023-02-17 20:16:27 [INFO] Stopping server
